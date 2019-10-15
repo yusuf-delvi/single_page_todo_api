@@ -4,6 +4,5 @@ const
 
 mongoose.connect(mongoUrl, { useNewUrlParser: true });
 mongoose.Promise = Promise;
-mongoose.set('debug', true)
 
 module.exports.Todo = require('./todos')
